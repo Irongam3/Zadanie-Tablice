@@ -8,11 +8,11 @@ var razem = men.concat(women);
 
 
 
-var newName = 'Olek';
-	 if (razem.indexOf('Olek') === -1) {
+var newName = 'Janek';
+	 if (razem.indexOf('Janek')) {
 		 console.log('Error repeat');
 	 }
-	 else if (razem.indexOf('Olek') === 1){
+	 else {
 		 var razemNewName = razem.push(newName);
 	 }
 		 
